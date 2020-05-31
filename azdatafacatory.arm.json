@@ -16,7 +16,7 @@
         },
         "logRetentionInDays": {
             "type": "int",
-            "defaultValue": 30,
+            "defaultValue": 60,
             "metadata": {
                 "description": "Number of days to retain data fatcory logs"
             }

@@ -9,7 +9,7 @@
             "value": "mkdemologanalyticsdev"
         },
         "logRetentionInDays": {
-            "value": 30
+            "value": 90
         }
     }
 }
