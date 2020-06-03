@@ -3,7 +3,7 @@ $location = "eastus"
 $deploymentTime = Get-Date -Format yyyyMMddHHmmss
 $deploymentName = "adfdeployment" + "-" + $deploymentTime
 # Make sure the arm template location is correct
-$armTemplateLocation = (Get-Location).Path + "\adf-configure-diagnostics\"
+$armTemplateLocation = (Get-Location).Path + "\azdatafactory\adf-configure-diagnostics\"
 $armTemplateFile = $armTemplateLocation + "azdatafacatory.arm.json"
 $armTemplateParamFile = $armTemplateLocation + "azdatafactory.arm.parameter.dev.json"
 New-AzureRmResourceGroup -Name $resourceGroup -Location $location
