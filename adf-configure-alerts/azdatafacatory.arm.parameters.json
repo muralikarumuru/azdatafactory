@@ -14,7 +14,7 @@
         "emailReceivers": {
             "value": [
                 {
-                    "name": "supportuser",
+                    "name": "user1",
                     "emailAddress": "user1@foo.com",
                     "useCommonAlertSchema": true
                 }
