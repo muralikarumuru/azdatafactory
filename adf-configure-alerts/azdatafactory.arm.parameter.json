@@ -14,8 +14,8 @@
         "emailReceivers": {
             "value": [
                 {
-                    "name": "user1",
-                    "emailAddress": "user1@foo.com",
+                    "name": "recipient name",
+                    "emailAddress": "recipient@foo.com",
                     "useCommonAlertSchema": true
                 }
             ]
