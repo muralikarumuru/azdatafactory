@@ -96,7 +96,7 @@
 		    "scopes": ["[resourceId('Microsoft.DataFactory/factories',parameters('dataFactoryName'))]"],
 		    "severity": 4,
 		    "targetResourceType": "Microsoft.DataFactory/factories",
-		    "windowSize": "PT5M"
+		    "windowSize": "PT1M"
 	        },
             "dependsOn": ["[resourceId('Microsoft.DataFactory/factories',parameters('dataFactoryName'))]"]
         }
